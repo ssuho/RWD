@@ -3,3 +3,21 @@
 @import url(./a11y.css);
 @import url(./theme.css);
 @import url(./base.css);
+
+
+/* 공통 스타일 */
+
+body {
+  background-color: var(--yellow);
+}
+
+@media(min-width: 320px) and (max-witdh: 768px) {
+
+}
+
+/* 중단점 */
+@media(min-width: 769px) {
+  body {
+    background-color: var(--green);
+  }
+}
